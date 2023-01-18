@@ -23,7 +23,7 @@ python3 GmailOSINT.py +12345678901
 Can use `--sleep 20` or higher if the connection is slow.
 
 # Example
-![GmailOSINT POC](https://github.com/Shakedash-dev/GmailOSINT/blob/main/example.png)
+![GmailOSINT POC](https://github.com/Shakedash-dev/GmailOSINT/blob/main/Example.png)
 
 
 # Tested on
