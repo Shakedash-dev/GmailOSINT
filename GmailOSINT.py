@@ -12,9 +12,10 @@ import argparse
 import sys
 
 # Constants.
+DEFAULT_SLEEP_TIME = 10
 LOGIN_URL = "https://accounts.google.com/AccountChooser/signinchooser?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=AccountChooser"
 REVIEWS_URL = "https://www.google.com/maps/contrib/{0}/reviews"
-DEFAULT_SLEEP_TIME = 10
+
 FORGOT_PASS_XPATH = '//*[@id="forgotPassword"]/div/button'
 IDENTIFIER_UNKNOWN_XPATH = '//*[@id="yDmH0d"]/c-wiz/div/div[2]/div/div[1]/div/form/span/section/div/div/div[1]/div/div[2]/div[2]/div'
 GAIA_ID_SCRIPT_XPATH = "/html/head/script[1]"
@@ -24,7 +25,6 @@ CHOOSE_AUTH_METHOD_XPATH = '//*[@id="view_container"]/div/div/div[2]/div/div[1]/
 ADDRESS_IN_MAPS_XPATH = '//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[5]/div[2]/div[{0}]/div/div[3]/div[2]/div[2]/div[1]/div/div[2]/span[1]'
 BUSINESS_IN_MAPS_XPATH = '//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[5]/div[2]/div[{0}]/div/div[3]/div[2]/div[2]/div[1]/div/div[1]/span'
 REVIEW_TIME_IN_MAPS_XPATH = '//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[5]/div[2]/div[{0}]/div/div[3]/div[4]/div[1]/span[3]'
-
 FULL_NAME_XPATH = (
     '//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[2]/div[2]/div[2]/h1'
 )
