@@ -9,6 +9,10 @@ Returns:
   2. Full Name
   3. Addresses the account posted reviews on.
   4. Times the reviews taken.
+
+## Warning!
+It can sometimes pop a 2FA screen on the victim's phone, dependent on user's configuration.<br>
+So <b> Do not use it on other people. Only yourself.</b>
   
 # Installation
 ```
