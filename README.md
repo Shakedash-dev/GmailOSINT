@@ -19,6 +19,8 @@ So <b> Do not use it on other people. Only yourself.</b>
 git clone https://github.com/Shakedash-dev/GmailOSINT.git & cd GmailOSINT
 pip install requirements.txt
 ```
+Can also be compiled using pyinstaller.
+
 # Usage
 ```
 python3 GmailOSINT.py john.doe@gmail.com
