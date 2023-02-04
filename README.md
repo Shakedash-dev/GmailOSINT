@@ -1,5 +1,5 @@
 # GmailOSINT
-Use Google services to gather details on an owner of a google acount.<br>
+Use Google services to gather details on an owner of a google account.<br>
 Created for research purposes only. Don't use it on someone other than yourself.
 
 # What it does?
